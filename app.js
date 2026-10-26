@@ -29,7 +29,21 @@ const projects = [
   ]
 },
   {
-    id: "02", name: "流动城市", en: "CITY IN MOTION", category: "城市出行 · 服务设计", year: "2024", type: "Service Design", color: "blue", mark: "流", title: "城市很大，\n出发很简单。", summary: "重新想象城市里的最后一公里。用更清晰的服务流程和更友好的移动体验，让低碳出行自然融入每一天。", tags: ["用户研究", "服务设计", "移动应用", "设计系统"], role: "研究 · 服务 · UI/UX", duration: "16 周", result: "日活增长 2.4 倍", image: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85", imageAlt: "蓝色时刻的城市天际线", overview: "面对复杂的城市交通网络，我们从真实通勤场景出发，把信息、路线和服务收拢到一个简单易懂的体验里。让人少一点计划，多一点自在。", highlights: ["围绕真实通勤任务重组信息架构", "将多种交通方式整合进单一行程", "以开放组件库支持跨城市快速部署"]
+    id: "02", name: "水下工业产品全流程", en: "UNDERWATER PRODUCT DEVELOPMENT", category: "产品设计 · 生产 · 测试", year: "持续迭代", type: "Design · Production · Test", color: "blue", mark: "水", title: "设计、生产、测试，\n全流程。", summary: "围绕水下成像、照明与激光组件，独立负责产品设计、生产实现与测试验证；使用 SolidWorks 设计仿真、KeyShot 渲染，特定加工商加工，并基于现有产品持续迭代。", tags: ["水下工业相机", "水下照明组件", "水下激光组件", "设计 · 生产 · 测试"], role: "全程负责 · 设计、生产与测试", duration: "现有产品持续迭代", result: "已完成产品：6 类", image: "", imageAlt: "", productSeries: true,
+    overview: "本系列展示本人负责的水下工业产品从设计、生产到测试的实际工作，按产品类别呈现成果。使用 SolidWorks 完成结构设计，并通过 KeyShot 输出外观渲染；生产与测试资料按实际可公开范围补充。页面不公开关键结构、内部布局、尺寸图纸及其他设计机密。",
+    products: [
+      { name: "水下双目工业相机", en: "UNDERWATER STEREO CAMERA", family: "成像系统", image: "", description: "", specs: [{ label: "工作水深", value: "600 米级" }, { label: "工作温度", value: "−5 至 65 °C" }, { label: "成像规格", value: "XXX" }, { label: "接口类别", value: "PoE" }] },
+      { name: "水下单目工业相机", en: "UNDERWATER MONO CAMERA", family: "成像系统", image: "./image/单目相机.jpg", description: "", specs: ["防护/工作深度", "工作温度范围", "成像规格", "接口类别"] },
+      { name: "水下 USB 相机", en: "UNDERWATER USB CAMERA", family: "成像系统", image: "", description: "", specs: ["防护/工作深度", "工作温度范围", "成像规格", "USB 接口规格"] },
+      { name: "水下灯筒", en: "UNDERWATER LIGHT CYLINDER", family: "照明组件", image: "./image/无标题.png", description: "", specs: ["防护/工作深度", "工作温度范围", "照明参数", "供电类别"] },
+      { name: "水下激光筒", en: "UNDERWATER LASER CYLINDER", family: "激光组件", image: "", description: "", specs: ["防护/工作深度", "工作温度范围", "激光类别与参数", "供电类别"] },
+      { name: "水下灯板", en: "UNDERWATER LIGHT BOARD", family: "照明组件", image: "", description: "", specs: ["防护/工作深度", "工作温度范围", "照明参数", "供电类别"] }
+    ],
+    documentGroups: [
+      { title: "设计输入与设计控制", en: "DESIGN CONTROL", docs: ["产品需求/产品规格书", "需求—验证追踪矩阵", "设计评审记录", "设计风险分析（如 DFMEA）", "设计验证计划与报告（DVP&R）", "工程变更申请与变更记录"] },
+      { title: "生产准备与过程控制", en: "PRODUCTION CONTROL", docs: ["产品工艺流程图", "作业指导书（SOP）", "装配与检验作业指导书", "来料检验规范与记录", "首件检验报告", "过程检验记录", "不合格品报告与纠正措施记录"] },
+      { title: "测试、检验与交付", en: "TEST & RELEASE", docs: ["测试计划与测试报告", "防水/水压验证方案与记录", "功能与电气检查记录", "检验设备校准记录", "最终检验与放行清单", "产品版本与追溯记录", "包装、安装及维护说明"] }
+    ]
   },
   {
     id: "03", name: "未完待续", en: "GOOD THINGS AHEAD", category: "文化内容 · 品牌设计", year: "2024", type: "Culture & Identity", color: "peach", mark: "未", title: "好故事，\n值得慢慢讲。", summary: "为独立出版与文化内容平台创造新的阅读入口。以温暖的编辑视角，连接创作者、好内容和愿意停留的人。", tags: ["品牌设计", "内容策略", "网页设计", "动效语言"], role: "品牌 · 创意指导 · 网页", duration: "10 周", result: "内容阅读时长 +52%", image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=1800&q=85", imageAlt: "阳光下摊开的书与纸张", overview: "信息越快，认真阅读越显珍贵。我们让平台回到书页般的阅读节奏，以清晰的内容层级和轻巧的交互，让发现好故事本身成为一种乐趣。", highlights: ["为长短内容建立统一但灵活的版式", "让编辑精选与个性推荐自然共存", "通过轻动效增强阅读节奏与反馈"]
@@ -49,7 +63,26 @@ function renderNav() {
   document.querySelectorAll(".project-link").forEach(button => button.addEventListener("click", () => selectProject(Number(button.dataset.index))));
 }
 
+function renderProductSpecs(product) {
+  return product.specs.map(spec => {
+    const label = typeof spec === "string" ? spec : spec.label;
+    const value = typeof spec === "string" ? "待补充" : (spec.value || "待补充");
+    return `<div><dt>${label}</dt><dd>${value}</dd></div>`;
+  }).join("");
+}
+
 function renderProject(project) {
+  if (project.productSeries) {
+    detail.innerHTML = `<div class="project-heading"><div class="project-heading-left"><span class="project-index mono">PROJECT ${project.id} <b>•</b> PRODUCT SERIES</span><h2>${project.name}<span class="heading-en">${project.en}</span></h2></div><span class="project-category">${project.category}</span></div>
+      <div class="hero-art blue no-image"><div class="engineering-grid" aria-hidden="true"></div><div class="hero-label"><span class="hero-label-top mono">${project.type} <span>—</span> ${project.products.length} PRODUCT TYPES</span><span class="hero-title">${project.title.replace("\n", "<br>")}</span><span class="hero-caption">${project.summary}</span></div><div class="hero-stamp" aria-hidden="true">水<span>PRODUCT<br />DESIGN</span></div><span class="hero-counter mono">${project.id} <i>/</i> ${String(projects.length).padStart(2,"0")}</span></div>
+      <div class="project-meta"><div><span class="meta-label">项目职责</span><span>${project.role}</span></div><div><span class="meta-label">工作方式</span><span>${project.duration}</span></div><div><span class="meta-label">设计工具</span><span>SolidWorks · KeyShot</span></div></div>
+      <section class="story-grid"><div><p class="section-label mono">01 — PRODUCT SERIES</p><h3>设计、生产、测试<br />由我全程负责。</h3></div><div class="story-copy"><p>${project.overview}</p><div class="tag-list">${project.tags.map(tag => `<span>${tag}</span>`).join("")}</div></div></section>
+      <section class="product-showcase"><div class="highlights-head"><p class="section-label mono">02 — PRODUCT SERIES</p><span>产品系列</span></div><div class="product-grid">${project.products.map((product, i) => `<article class="product-card"><div class="product-visual ${product.image ? "has-image" : ""}" ${product.image ? "" : `role="img" aria-label="${product.name}图片待补充"`}>${product.image ? `<img src="${product.image}" alt="${product.name}" loading="lazy" />` : ""}</div><div class="product-card-body"><span class="product-family mono">0${i + 1} · ${product.family}</span><h3>${product.name}</h3><span class="product-en">${product.en}</span>${product.description ? `<p class="product-description">${product.description}</p>` : ""}<dl class="product-specs">${renderProductSpecs(product)}</dl></div></article>`).join("")}</div></section>
+      <section class="document-system"><div class="highlights-head"><p class="section-label mono">03 — ENGINEERING DOCUMENTS</p><span>工程资料框架</span></div><p class="document-intro">以下为可按项目实际情况建立和维护的工程文件类别。此处展示文件类型，不展示文件内容、客户信息、结构细节或内部参数。</p>${project.documentGroups.map((group, i) => `<details class="capability-card" ${i === 0 ? "open" : ""}><summary><span class="mono">0${i + 1}</span><strong>${group.title}</strong><small>${group.en}</small><b aria-hidden="true">＋</b></summary><div class="capability-copy"><ul>${group.docs.map(doc => `<li>${doc}</li>`).join("")}</ul></div></details>`).join("")}</section>
+      <div class="next-project"><span class="section-label mono">继续浏览</span><button id="next-project">下一个项目 <span>→</span></button></div>`;
+    document.querySelector("#next-project").addEventListener("click", () => selectProject((activeIndex + 1) % projects.length));
+    return;
+  }
   detail.innerHTML = `<div class="project-heading"><div class="project-heading-left"><span class="project-index mono">PROJECT ${project.id} <b>•</b> ${project.year}</span><h2>${project.name}<span class="heading-en">${project.en}</span></h2></div><span class="project-category">${project.category}</span></div>
     <div class="hero-art ${project.color}" style="--hero-image:url('${project.image}')"><img class="hero-image" src="${project.image}" alt="${project.imageAlt}" /><div class="hero-shade"></div><div class="hero-label"><span class="hero-label-top mono">${project.type} <span>—</span> ${project.year}</span><span class="hero-title">${project.title.replace("\n", "<br>")}</span><span class="hero-caption">${project.summary}</span></div><div class="hero-stamp" aria-hidden="true">${project.mark}<span>STUDIO<br />ARCHIVE</span></div><span class="hero-counter mono">${project.id} <i>/</i> ${String(projects.length).padStart(2,"0")}</span></div>
     <div class="project-meta"><div><span class="meta-label">我的角色</span><span>${project.role}</span></div><div><span class="meta-label">项目周期</span><span>${project.duration}</span></div><div><span class="meta-label">项目成果</span><span>${project.result}</span></div></div>
