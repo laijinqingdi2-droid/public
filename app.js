@@ -1,7 +1,33 @@
 const projects = [
   {
-    id: "01", name: "山野之间", en: "FIELD NOTES", category: "品牌体验 · 数字产品", year: "2025", type: "Brand & Digital", color: "moss", mark: "山", title: "把自然，\n带回日常。", summary: "为新一代户外生活方式品牌构建完整的数字体验。从品牌叙事、视觉系统到电商体验，让每一次出发都有迹可循。", tags: ["品牌策略", "视觉识别", "电商体验", "数字产品"], role: "策略 · 品牌 · 产品设计", duration: "12 周", result: "转化率提升 38%", image: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=85", imageAlt: "雾气环绕的山野湖泊", overview: "山野之间相信，自然不是远方的目的地，而是一种重新感受生活的方式。我们为品牌设计了一套灵活、克制的视觉语言，并将它延伸到内容、电商与会员体验中。", highlights: ["以地形线条构建品牌图形系统", "重新梳理从内容种草到购买的用户路径", "设计支持长期生长的模块化电商组件"]
-  },
+  "id": "01",
+  "name": "无人机飞控平台",
+  "en": "MODULAR FLIGHT PLATFORM",
+  "category": "无人系统 · 硬件平台",
+  "year": "—",
+  "type": "Hardware Platform",
+  "color": "blue",
+  "mark": "飞",
+  "title": "从零开始，\n搭建飞行平台。",
+  "summary": "从飞控与动力组件选型、250 mm 机架建模，到手工焊接与整机集成，完成一台可飞行的无人机 MVP，并为后续功能扩展打下硬件基础。",
+  "tags": [
+    "SolidWorks 结构设计",
+    "飞控系统集成",
+    "硬件焊接",
+    "MVP 验证"
+  ],
+  "role": "结构设计 · 硬件选型 · 焊接组装 · 系统集成",
+  "duration": "从零到一 · MVP 阶段",
+  "result": "完成可飞行的基础无人机平台",
+  "image": "drone-keyshot.png",
+  "imageAlt": "无人机飞控平台的 KeyShot 渲染图",
+  "overview": "这不是一架一次性的无人机，而是一个可以持续迭代的飞控平台。项目从电池、PIX4 飞控、PM07 电源模块、遥控器、电调与电机等组件选型开始；随后使用 SolidWorks 自主设计 250 mm 轴距机架，并完成手工焊接、整机组装与基础飞行验证，最终形成可飞行的 MVP。当前平台提供了可工作的飞行基座。后续可接入新的核心板与传感器，逐步扩展平台能力。",
+  "highlights": [
+    "使用 SolidWorks 完成 250 mm 轴距机架的结构设计。",
+    "完成飞控、电源与动力组件的选型、焊接和整机集成。",
+    "实现基础飞行验证，并规划以核心板和传感器为基础的后续扩展方向。"
+  ]
+},
   {
     id: "02", name: "流动城市", en: "CITY IN MOTION", category: "城市出行 · 服务设计", year: "2024", type: "Service Design", color: "blue", mark: "流", title: "城市很大，\n出发很简单。", summary: "重新想象城市里的最后一公里。用更清晰的服务流程和更友好的移动体验，让低碳出行自然融入每一天。", tags: ["用户研究", "服务设计", "移动应用", "设计系统"], role: "研究 · 服务 · UI/UX", duration: "16 周", result: "日活增长 2.4 倍", image: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85", imageAlt: "蓝色时刻的城市天际线", overview: "面对复杂的城市交通网络，我们从真实通勤场景出发，把信息、路线和服务收拢到一个简单易懂的体验里。让人少一点计划，多一点自在。", highlights: ["围绕真实通勤任务重组信息架构", "将多种交通方式整合进单一行程", "以开放组件库支持跨城市快速部署"]
   },
