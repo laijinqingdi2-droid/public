@@ -44,12 +44,6 @@ const projects = [
       { title: "生产准备与过程控制", en: "PRODUCTION CONTROL", docs: ["产品工艺流程图", "作业指导书（SOP）", "装配与检验作业指导书", "来料检验规范与记录", "首件检验报告", "过程检验记录", "不合格品报告与纠正措施记录"] },
       { title: "测试、检验与交付", en: "TEST & RELEASE", docs: ["测试计划与测试报告", "防水/水压验证方案与记录", "功能与电气检查记录", "检验设备校准记录", "最终检验与放行清单", "产品版本与追溯记录", "包装、安装及维护说明"] }
     ]
-  },
-  {
-    id: "03", name: "未完待续", en: "GOOD THINGS AHEAD", category: "文化内容 · 品牌设计", year: "2024", type: "Culture & Identity", color: "peach", mark: "未", title: "好故事，\n值得慢慢讲。", summary: "为独立出版与文化内容平台创造新的阅读入口。以温暖的编辑视角，连接创作者、好内容和愿意停留的人。", tags: ["品牌设计", "内容策略", "网页设计", "动效语言"], role: "品牌 · 创意指导 · 网页", duration: "10 周", result: "内容阅读时长 +52%", image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=1800&q=85", imageAlt: "阳光下摊开的书与纸张", overview: "信息越快，认真阅读越显珍贵。我们让平台回到书页般的阅读节奏，以清晰的内容层级和轻巧的交互，让发现好故事本身成为一种乐趣。", highlights: ["为长短内容建立统一但灵活的版式", "让编辑精选与个性推荐自然共存", "通过轻动效增强阅读节奏与反馈"]
-  },
-  {
-    id: "04", name: "微光计划", en: "A LITTLE LIGHT", category: "公益倡议 · 数字产品", year: "2023", type: "Digital for Good", color: "lilac", mark: "光", title: "一点点光，\n也能照很远。", summary: "把社区公益行动变得更容易参与。打造连接志愿者与在地组织的轻量工具，让每一次小小行动都能被看见。", tags: ["服务设计", "公益品牌", "数字体验", "社区共创"], role: "共创工作坊 · 产品设计", duration: "8 周", result: "1,200+ 志愿者参与", image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1800&q=85", imageAlt: "社区伙伴聚在一起交流", overview: "微光计划从一个简单的问题开始：如果参与社区公益像约朋友见面一样容易，会发生什么？我们与本地组织和居民共同设计了一套轻量的发现、报名与反馈流程。", highlights: ["与社区组织共同梳理真实服务需求", "将志愿活动信息设计成清晰可行动的卡片", "建立行动反馈机制，形成持续参与的循环"]
   }
 ];
 
